@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="social-icons">
+        <div class="icon-box"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="icon-box"><i class="fa-brands fa-internet-explorer"></i></div>
+    </div>
+    <!-- ////////////////////////// -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info navbar-dark">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+
+                    <li class="nav-item-1">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                            style="color: rgb(255, 244, 30);">
+                            تسجيل الدخول
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"
+                            style="border: 2px solid #fff; color: #fff; margin: 5px; border-radius: 10px;">بحث</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <input type="text" class="form-control" placeholder="بحث" lang="ar" dir="rtl"
+                            style="border-radius: 8px; margin: 5px;">
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            style="color: #fff;" lang="ar" dir="rtl">
+                            الرحلات
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">مشروبات</a></li>
+                            <li><a class="dropdown-item" href="#">كعك شوكولاته</a></li>
+                            <li><a class="dropdown-item" href="#">ايس كريم</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #fff;">روابط</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #fff;">الرئيسيه</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+            <a class="navbar-brand" href="#">
+                <h1 style="margin-right: 110px;">dessert</h1>
+            </a>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-end">
+                <div class="modal-header">
+                    <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="loginModalLabel" lang="ar" dir="rtl">تسجيل الدخول</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">البريد الإلكتروني أو اسم المستخدم</label>
+                            <input type="text" class="form-control" id="email" placeholder="example@example.com"
+                                lang="ar" dir="rtl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">كلمة المرور</label>
+                            <input type="password" class="form-control" id="password" placeholder="********" lang="ar"
+                                dir="rtl">
+                        </div>
+                        <div class="mb-3 text-start">
+                            <a href="#" class="text-decoration-none" style="margin-left: 67%;">هل نسيت كلمة المرور؟</a>
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> تذكرنى
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">تسجيل دخول</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////// -->
+    <main>
+        <div class="overlay">
+            <div class="content">
+                <h1 class="title">
+                    <P>متجر الحلويات</P>
+                </h1>
+                <P>!قضينا وقتنا رائع فى المتجر </P>
+                <button type="button" class="btn btn-outline-info">زورونا</button>
+            </div><!-- /content -->
+        </div><!-- /overlay -->
+    </main>
+    <!-- ///////////////////////////////////////////////////////// -->
+    <div class="container">
+        <section class="sec-2">
+            <h2>قسم الحلوى</h2>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="overlay">
+                            <div class="content1">
+                                <h1 class="title1">
+                                    <p>نكهات ايس كريم</p>
+                                </h1>
+                                <P>!قضينا وقتنا رائع فى المتجر </P>
+                                <button type="button" class="btn btn-outline-info">اكتشف المزيد</button>
+                            </div><!-- /content -->
+                        </div><!-- /overlay -->
+                    </div>
+                    <div class="carousel-item active1">
+                        <div class="overlay">
+                            <div class="content1">
+                                <h1 class="title1">
+                                    <p>كعكه الكرز</p>
+                                </h1>
+                                <P>!قضينا وقتنا رائع فى المتجر </P>
+                                <button type="button" class="btn btn-outline-info">اكتشف المزيد</button>
+                            </div><!-- /content -->
+                        </div><!-- /overlay -->
+                    </div>
+                    <div class="carousel-item active2">
+                        <div class="overlay">
+                            <div class="content1">
+                                <h1 class="title1">
+                                    <p>مولتن كيك و ايس كريم</p>
+                                </h1>
+                                <P>!قضينا وقتنا رائع فى المتجر </P>
+                                <button type="button" class="btn btn-outline-info">اكتشف المزيد</button>
+                            </div><!-- /content -->
+                        </div><!-- /overlay -->
+                    </div>
+
+                    <div class="carousel-item active3">
+                        <div class="overlay">
+                            <div class="content1">
+                                <h1 class="title1">
+                                    <p>بولات الايس كريم</p>
+                                </h1>
+                                <P>!قضينا وقتنا رائع فى المتجر </P>
+                                <button type="button" class="btn btn-outline-info">زورونا</button>
+                            </div><!-- /content -->
+                        </div><!-- /overlay -->
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <!-- /////////////////////////////////////////////////////// -->
+        <section class="sec-3 py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="div1 p-4 text-center text-white">
+                            <div class="content3">
+                                <h2 class="title3">ايس كوفي</h2>
+                                <p>!قضينا وقتنا رائع فى المتجر</p>
+                                <button type="button" class="btn btn-outline-info">اعرف اكثر</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="div2 p-4 text-center text-white">
+                            <div class="content3">
+                                <h2 class="title3">دونتس</h2>
+                                <p>!قضينا وقتنا رائع فى المتجر</p>
+                                <button type="button" class="btn btn-outline-info">اعرف اكثر</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="div3 p-4 text-center text-white">
+                            <div class="content3">
+                                <h2 class="title3">كيكه كراميل</h2>
+                                <p>!قضينا وقتنا رائع فى المتجر</p>
+                                <button type="button" class="btn btn-outline-info">اعرف</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- ///////////////////////////////////////////////////////// -->
+
+    <section class="sec-4">
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header" lang="ar" dir="rtl">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne" style="color: #fff;">
+                        Collapsible Group Item #1
+                        <i class="fa-solid fa-chevron-up icon-toggle" style="display: none;"></i>
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet <span style="color: red;">consectetur adipisicing</span> elit.
+                        Perferendis doloremque eveniet, dolore placeat consequatur eos explicabo esse sed natus quaerat
+                        at, eaque quasi? Fuga molestias eius accusantium animi ipsam iure aperiam id quam qui numquam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" lang="ar" dir="rtl">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" style="color: #fff;">
+                        Collapsible Group Item #2
+                        <i class="fa-solid fa-chevron-up icon-toggle" style="display: none;"></i>
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet <span style="color: red;">consectetur adipisicing</span> elit. Fugit
+                        aspernatur odio quidem laborum vero temporibus odit modi incidunt amet omnis, dolorem mollitia
+                        provident exercitationem velit dicta et perferendis magnam atque, ab quibusdam fugiat optio
+                        illum?
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" lang="ar" dir="rtl">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree" style="color: #fff;">
+                        Collapsible Group Item #3
+                        <i class="fa-solid fa-chevron-up icon-toggle" style="display: none;"></i>
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet <span style="color: red;">consectetur adipisicing</span> elit.
+                        Perferendis doloremque eveniet, dolore placeat consequatur eos explicabo esse sed natus quaerat
+                        at, eaque quasi? Fuga molestias eius accusantium animi ipsam iure aperiam id quam qui numquam.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////////// -->
+    <div class="container">
+        <h2 class="text-center mb-4">فريق العمل</h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/proxy-image (1).jpeg" alt="Card image">
+                    <div class="card-img-overlay text-white">
+                        <img src="./images/proxy-image (1).jpeg" alt="Avatar Logo" class="rounded-pill">
+                        <h4 class="card-title">شيف/علاء الشربينى</h4>
+                        <p class="card-text">طباخ محترف</p>
+                        <span class="card-text" style="color: #fff;">الاربعاء 21 ابريل 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/proxy-image (1).jpeg" alt="Card image">
+                    <div class="card-img-overlay text-white">
+                        <img src="./images/proxy-image (1).jpeg" alt="Avatar Logo" class="rounded-pill">
+                        <h4 class="card-title">شيف/علاء الشربينى</h4>
+                        <p class="card-text">طباخ محترف</p>
+                        <span class="card-text" style="color: #fff;">الاثنين 11 مايو 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/proxy-image (1).jpeg" alt="Card image">
+                    <div class="card-img-overlay text-white">
+                        <img src="./images/proxy-image (1).jpeg" alt="Avatar Logo" class="rounded-pill">
+                        <h4 class="card-title">شيف/علاء الشربينى </h4>
+                        <p class="card-text">طباخ محترف</p>
+                        <span class="card-text" style="color: #fff;">الثلاثاء 4 مارس 2025</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /////////////////////////////////////////////////////// -->
+    <section class="latest-desserts">
+        <h2>أحدث أنواع الحلويات</h2>
+        <div class="container">
+            <div class="dessert-card" lang="ar" dir="rtl">
+                <img src="./images/mochi_1.webp" alt="موشي">
+                <h3>موشي</h3>
+                <span>الاثنين 11 مارس 2025</span>
+                <p>هذا المنتج عبارة عن آيس كريم ياباني</p>
+                <button type="button" class="btn-order">احجز أوردر</button>
+                <button type="button" class="btn-time">25 دقيقة</button>
+                <button type="button" class="btn-more">المزيد</button>
+            </div>
+
+            <div class="dessert-card" lang="ar" dir="rtl">
+                <img src="./images/joshua-ryder-N7OD-dUA0hQ-unsplash (1).jpg" alt="مولتن كيك">
+                <h3>مولتن كيك</h3>
+                <span>الأحد 19 أبريل 2025</span>
+                <p>هذا المنتج عبارة عن كيك محشو بصوص الشوكولاتة</p>
+                <button type="button" class="btn-order">احجز أوردر</button>
+                <button type="button" class="btn-time">30 دقيقة</button>
+                <button type="button" class="btn-more">المزيد</button>
+            </div>
+
+            <div class="dessert-card" lang="ar" dir="rtl">
+                <img src="./images/alexandra-khudyntseva-hXqbSgOPjSI-unsplash.jpg" alt="كعكة الفراولة">
+                <h3>كعكة الفراولة</h3>
+                <span>الثلاثاء 29 مايو 2025</span>
+                <p>هذا المنتج عبارة عن كعكة بنكهة الفراولة مزينة بقطع الفراولة</p>
+                <button type="button" class="btn-order">احجز أوردر</button>
+                <button type="button" class="btn-time">35 دقيقة</button>
+                <button type="button" class="btn-more">المزيد</button>
+            </div>
+        </div>
+    </section>
+    <!-- /////////////////////////////////////////// -->
+    <section class="social-media-section container mt-5 mb-5">
+        <h2 class="text-end mb-4" style="display: flex;">مواقع التواصل الاجتماعى</h2>
+        <div class="row text-end">
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="social-box d-flex align-items-center p-2" lang="ar" dir="rtl">
+                    <img src="./images/images (3).jpg" alt="تويتر" class="social-icon">
+                    <h5 class="mb-0 me-3">تابعنا على تويتر</h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="social-box d-flex align-items-center p-2" lang="ar" dir="rtl">
+                    <img src="./images/png-clipart-linkedin-computer-icons-logo-professional-network-service-social-networks-blue-angle.png"
+                        alt="لينكد إن" class="social-icon">
+                    <h5 class="mb-0 me-3">تابعنا على لينكد ان</h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="social-box d-flex align-items-center p-2" lang="ar" dir="rtl">
+                    <img src="./images/images (2).jpg" alt="واتساب" class="social-icon">
+                    <h5 class="mb-0 me-3">تواصل معنا على الواتس</h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="social-box d-flex align-items-center p-2" lang="ar" dir="rtl">
+                    <img src="./images/images (1).jpg" alt="فيسبوك" class="social-icon">
+                    <h5 class="mb-0 me-3">تابعنا على فيسبوك</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ////////////////////////////////////////////// -->
+    <footer class="bg-secondary text-white pt-4">
+        <div class="container-fluid">
+            <div class="row text-end">
+
+                <div class="col-12 col-md-4 mb-4">
+                    <h5>رؤيتنا</h5>
+                    <p>خدمات للجميع</p>
+                    <p>نقدم افضل الخدمات</p>
+                    <p>سنكون افضل من قبل</p>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <h5>روابط مهمة</h5>
+                    <p>زورونا</p>
+                    <p>احجز أوردر</p>
+                    <p>المنيو</p>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4 d-flex" lang="ar" dir="rtl">
+                    <img src="./images/anita-austvika-NLs-khq8Lco-unsplash (1).jpg" alt="شعار"
+                        class="rounded-circle me-3" width="65" height="65">
+                    <div>
+                        <h5>متجر الحلوى</h5>
+                        <p>هاتف: 000-000-000</p>
+                        <p>العنوان: ميت غمر</p>
+                        <p>فاكس: 111-010-101</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-info text-center py-2 mt-3">
+            <p class="mb-0">© جميع الحقوق محفوظة لدى شركة الغذاء المصرية</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
